@@ -5,7 +5,7 @@ import logo from '../../assets/logo.svg';
 import { HeaderContainer } from './styles';
 import { NavLink } from 'react-router-dom';
 
-const Header = () => {
+const Header: React.FC = () => {
   return (
     <HeaderContainer>
       <img src={logo} alt="" />

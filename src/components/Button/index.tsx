@@ -6,7 +6,7 @@ interface ButtonProps {
   variant: 'primary' | 'secondary'
 }
 
-const Button = ({ variant = 'primary' }: ButtonProps) => {
+const Button: React.FC<ButtonProps> = ({ variant = 'primary' }: ButtonProps) => {
   return (
     <ButtonContainer variant={variant}>Enviar</ButtonContainer>
   )
