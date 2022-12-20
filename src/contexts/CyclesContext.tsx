@@ -85,7 +85,6 @@ export const CyclesContextProvider = ({ children }: CyclesContextProviderProps) 
       minutesAmount: data.minutesAmount,
       startDate: new Date()
     }
-    console.log('newCycle', newCycle)
     dispatch(addNewCycleAction(newCycle))
     setAmountSecondsPassed(0)
   }
