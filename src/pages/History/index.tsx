@@ -1,5 +1,5 @@
-import { formatDistanceToNow } from 'date-fns';
 import React, { useContext } from 'react';
+import { formatDistanceToNow } from 'date-fns';
 import ptBR from 'date-fns/locale/pt-BR';
 import { CyclesContext } from '../../contexts/CyclesContext';
 

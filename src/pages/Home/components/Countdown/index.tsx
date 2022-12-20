@@ -22,7 +22,6 @@ const Countdown: React.FC = () => {
     }
   }, [activeCycle, minutes, seconds])
 
-
   useEffect(() => {
     let interval: number
     if (activeCycle) {
