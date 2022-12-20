@@ -7,12 +7,14 @@ interface CyclesState {
 }
 
 const cyclesReducer = (state: CyclesState, action: any) => {
-  switch (action.type) {
+  const { type, payload } = action
+
+  switch (type) {
     case CyclesActionTypes.ADD_NEW_CYCLE: {
       return {
         ...state,
-        cycles: [...state.cycles, action.payload.newCycle],
-        activeCycleId: action.payload.newCycle.id
+        cycles: [...state.cycles, payload.newCycle],
+        activeCycleId: payload.newCycle.id
       }
     }
     case CyclesActionTypes.MARK_CURRENT_CYCLE_FINISHED: {
@@ -22,7 +24,7 @@ const cyclesReducer = (state: CyclesState, action: any) => {
           if (cycle.id === state.activeCycleId) {
             return {
               ...cycle,
-              stopDate: new Date()
+              finishedDate: new Date()
             }
           } else {
             return cycle
@@ -35,10 +37,10 @@ const cyclesReducer = (state: CyclesState, action: any) => {
       return {
         ...state,
         cycles: state.cycles.map((cycle) => {
-          if (cycle.id === action.payload) {
+          if (cycle.id === state.activeCycleId) {
             return {
               ...cycle,
-              finishedDate: new Date()
+              stopDate: new Date()
             }
           } else {
             return cycle
