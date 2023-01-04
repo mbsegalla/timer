@@ -2,9 +2,9 @@
 
 ## Project developed using vite and typescript
 
-<p>This project is about an application that does time regression, for example controlling the time to return to a specific activity.</p>
+This project is about an application that does time regression, for example controlling the time to return to a specific activity.
 
-<h2>Getting start</h2>
+## Getting start
 
 ```bash
   git clone https://github.com/mbsegalla/timer.git
@@ -12,7 +12,7 @@
   npm/yarn run dev
 ```
 
-<h2>Pictures</h2>
+## Pictures
 
 ![web1](https://user-images.githubusercontent.com/69018143/210564510-e09f29b5-40c0-4873-8adc-3b47370f8a2c.png)
 
