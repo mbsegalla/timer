@@ -1,1 +1,1 @@
-<h1>Timer</h1>
+<span>Timer</span>
