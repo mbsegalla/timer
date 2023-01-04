@@ -4,6 +4,8 @@
 
 <p>This project is about an application that does time regression, for example controlling the time to return to a specific activity.</p>
 
+<h2>To start the project, run a git clone at this link: https://github.com/mbsegalla/timer.git then run npm install , to finish run npm/yarn dev.</h2>
+
 <h2>Pictures</h2>
 
 ![Captura de tela de 2023-01-04 10-23-05](https://user-images.githubusercontent.com/69018143/210564510-e09f29b5-40c0-4873-8adc-3b47370f8a2c.png)
