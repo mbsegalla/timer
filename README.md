@@ -6,7 +6,9 @@
 
 <h2>Getting start</h2>
 
-
+git clone https://github.com/mbsegalla/timer.git
+cd my project
+np,/yarn run dev
 
 <h2>Pictures</h2>
 
