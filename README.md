@@ -1,6 +1,6 @@
 # Timer
 
-# Project developed using vite and typescript
+## Project developed using vite and typescript
 
 <p>This project is about an application that does time regression, for example controlling the time to return to a specific activity.</p>
 
