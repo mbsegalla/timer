@@ -9,7 +9,9 @@ This project is about an application that does time regression, for example cont
 ```bash
   git clone https://github.com/mbsegalla/timer.git
   cd my project
-  npm/yarn run dev
+  npm run dev
+  #or
+  yarn run dev
 ```
 
 ## Pictures
