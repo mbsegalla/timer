@@ -1,10 +1,12 @@
-<h1>Timer</h1>
+# Timer
 
-<h2>Project developed using vite and typescript</h2>
+## Project developed using vite and typescript
 
 <p>This project is about an application that does time regression, for example controlling the time to return to a specific activity.</p>
 
-<h2>To start the project, run a git clone at this link: https://github.com/mbsegalla/timer.git then run npm install , to finish run npm/yarn dev.</h2>
+<h2>Getting start</h2>
+
+
 
 <h2>Pictures</h2>
 
